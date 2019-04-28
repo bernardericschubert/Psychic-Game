@@ -1,0 +1,70 @@
+<!-- HW3 Psychic Game -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Psychic Game</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header id="masthead">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Eric Schubert</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>  
+    </header>
+
+    <br><br><br>
+
+    <div class="container bg-light body-container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Are you psychic?</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12"><hr></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Let's test your psychic abilities!  Press any <i>lowercase</i> alpabetic letter on your keyboard and I'll let you know whether it is the same one I am thinking of. You get 10 guesses.</p>
+
+                <!-- Set IDs to be referenced in JS code-->
+                <p id = "wins"> Wins: </p>
+                <p id = "losses"> Losses: </p>
+                <p id = "guessLeft"> Guesses left: 10</p>
+                <p id = "totalGuess"> Guesses so far: </p>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="fixed-bottom">Copyright Eric Schubert 2019&copy;</div>
+    </footer>
+
+    <!-- Link JS file -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
