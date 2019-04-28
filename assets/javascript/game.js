@@ -12,7 +12,7 @@ var psychicGuess = [];
 var init = function() {
 	var pGuess = totalChoices[Math.floor(Math.random() * totalChoices.length)];
 	psychicGuess.push(pGuess);
-	console.log(psychicGuess[0]); 
+	console.log(psychicGuess[0]); // Leaving this active for live testing
 }
 
 // Generate initial psychic guess
